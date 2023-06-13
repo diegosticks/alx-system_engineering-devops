@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p | grep -E "declare -[aAfu]* [A-Za-z_]+="
+set | less
